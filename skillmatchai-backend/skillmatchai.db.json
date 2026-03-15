@@ -1,0 +1,729 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "shyam",
+      "email": "shyam@gmail.com",
+      "password_hash": "$2a$10$lswZ1NiaLmQFO9yLpQtsWOatsPs3URuj7r9Te48/n3RoWAK1Xg1bC",
+      "role": "jobseeker",
+      "skills": [
+        "python",
+        "excel",
+        "communication",
+        "data analysis"
+      ],
+      "is_active": 1,
+      "created_at": "2026-03-03T11:08:39.571Z",
+      "updated_at": "2026-03-03T11:12:59.993Z"
+    },
+    {
+      "id": 2,
+      "name": "gupta",
+      "email": "gupta@gmail.com",
+      "password_hash": "$2a$10$aG.NY2E0GW4SwuIQZ9npTeWolxKDFCGLAilYQu1nk/ydE9.nhdk.m",
+      "role": "pwd_candidate",
+      "skills": [],
+      "is_active": 1,
+      "created_at": "2026-03-04T16:47:11.723Z"
+    },
+    {
+      "id": 3,
+      "name": "riya gupta",
+      "email": "riya@gmail.com",
+      "password_hash": "$2a$10$YBSb9bgSSxilEGp6Z2S2UunTwR.Ud7UcrNNJ8D7KaPzfmprwj90JK",
+      "role": "jobseeker",
+      "skills": [],
+      "is_active": 1,
+      "created_at": "2026-03-09T16:07:34.941Z",
+      "updated_at": "2026-03-09T16:13:45.901Z"
+    },
+    {
+      "id": 4,
+      "name": "neelu",
+      "email": "neelu@gmail.com",
+      "password_hash": "$2a$10$/7CsKg8fs75DsAJjpCMtt.13nxA29ekASQX6SH1fh.QhZG5FcgfQ6",
+      "role": "recruiter",
+      "skills": [],
+      "is_active": 1,
+      "created_at": "2026-03-09T16:22:12.434Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "original_name": "Certificate of Girija Tandon.pdf",
+      "ipfs_hash": null,
+      "file_hash": "8dc9e3dba13d3db60d34726476e86fee687bed1759490f96259be53d43a7d5f9",
+      "extracted_text": "\n\nGirija Tandon\n08",
+      "ai_confidence": 65,
+      "ai_is_valid": 1,
+      "ai_skills": [],
+      "ai_issuer": "Unknown Issuer",
+      "ai_course_name": "Certificate of Girija Tandon",
+      "ai_reason": "Certificate keywords found in document",
+      "status": "needs_test",
+      "blockchain_tx_hash": null,
+      "created_at": "2026-03-09T16:12:01.248Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "original_name": "Certificate of Girija Tandon.pdf",
+      "ipfs_hash": null,
+      "file_hash": "8dc9e3dba13d3db60d34726476e86fee687bed1759490f96259be53d43a7d5f9",
+      "extracted_text": "\n\nGirija Tandon\n08",
+      "ai_confidence": 65,
+      "ai_is_valid": 1,
+      "ai_skills": [],
+      "ai_issuer": "Unknown Issuer",
+      "ai_course_name": "Certificate of Girija Tandon",
+      "ai_reason": "Certificate keywords found in document",
+      "status": "invalid",
+      "blockchain_tx_hash": null,
+      "created_at": "2026-03-09T16:19:44.349Z",
+      "test_questions": [
+        {
+          "id": "q1",
+          "question": "What is the primary purpose of programming?",
+          "difficulty": "easy",
+          "options": {
+            "A": "To build applications",
+            "B": "To manage hardware",
+            "C": "To design UI only",
+            "D": "None of the above"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": "q2",
+          "question": "Which of the following is a best practice in programming?",
+          "difficulty": "medium",
+          "options": {
+            "A": "Writing clean, documented code",
+            "B": "Ignoring errors",
+            "C": "Hardcoding values",
+            "D": "Skipping testing"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": "q3",
+          "question": "What does debugging mean in programming?",
+          "difficulty": "easy",
+          "options": {
+            "A": "Finding and fixing errors",
+            "B": "Writing new features",
+            "C": "Deploying code",
+            "D": "Reviewing design"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": "q4",
+          "question": "How would you optimize performance in a programming application?",
+          "difficulty": "hard",
+          "options": {
+            "A": "Profile first, then optimize bottlenecks",
+            "B": "Rewrite everything",
+            "C": "Add more servers",
+            "D": "Reduce features"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "id": "q5",
+          "question": "What is version control important for in programming projects?",
+          "difficulty": "medium",
+          "options": {
+            "A": "Tracking changes and collaborating",
+            "B": "Running code faster",
+            "C": "Fixing UI bugs",
+            "D": "Database management"
+          },
+          "correct_answer": "A"
+        }
+      ],
+      "test_score": 60
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Senior React Developer",
+      "description": "Build web apps with React 18 and TypeScript.",
+      "required_skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "location": "Bangalore",
+      "salary_min": 1200000,
+      "salary_max": 2000000,
+      "is_remote": false,
+      "recruiter_id": null,
+      "is_active": true,
+      "created_at": "2026-03-03T11:06:29.479Z"
+    },
+    {
+      "id": 2,
+      "title": "Full Stack Engineer",
+      "description": "Work on frontend and backend of SaaS platform.",
+      "required_skills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Docker"
+      ],
+      "location": "Mumbai",
+      "salary_min": 800000,
+      "salary_max": 1500000,
+      "is_remote": true,
+      "recruiter_id": null,
+      "is_active": true,
+      "created_at": "2026-03-03T11:06:29.480Z"
+    },
+    {
+      "id": 3,
+      "title": "Frontend Engineer",
+      "description": "Create responsive UIs using React and Tailwind CSS.",
+      "required_skills": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "location": "Hyderabad",
+      "salary_min": 600000,
+      "salary_max": 1200000,
+      "is_remote": true,
+      "recruiter_id": null,
+      "is_active": true,
+      "created_at": "2026-03-03T11:06:29.480Z"
+    },
+    {
+      "id": 4,
+      "title": "Data Scientist",
+      "description": "Build ML models for analytics platform.",
+      "required_skills": [
+        "Python",
+        "TensorFlow",
+        "SQL",
+        "Pandas"
+      ],
+      "location": "Pune",
+      "salary_min": 900000,
+      "salary_max": 1800000,
+      "is_remote": false,
+      "recruiter_id": null,
+      "is_active": true,
+      "created_at": "2026-03-03T11:06:29.481Z"
+    },
+    {
+      "id": 5,
+      "title": "DevOps Engineer",
+      "description": "Manage CI/CD pipelines on AWS with Docker.",
+      "required_skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Linux"
+      ],
+      "location": "Remote",
+      "salary_min": 1000000,
+      "salary_max": 1900000,
+      "is_remote": true,
+      "recruiter_id": null,
+      "is_active": true,
+      "created_at": "2026-03-03T11:06:29.482Z"
+    },
+    {
+      "id": 6,
+      "title": "Backend Developer",
+      "description": "Design REST APIs using Node.js and Express.",
+      "required_skills": [
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "location": "Chennai",
+      "salary_min": 700000,
+      "salary_max": 1400000,
+      "is_remote": false,
+      "recruiter_id": null,
+      "is_active": true,
+      "created_at": "2026-03-03T11:06:29.482Z"
+    },
+    {
+      "id": 7,
+      "title": "Python Developer",
+      "description": "Build automation scripts and Django services.",
+      "required_skills": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
+      "location": "Noida",
+      "salary_min": 600000,
+      "salary_max": 1200000,
+      "is_remote": true,
+      "recruiter_id": null,
+      "is_active": true,
+      "created_at": "2026-03-03T11:06:29.482Z"
+    },
+    {
+      "id": 8,
+      "title": "UI/UX Developer",
+      "description": "Design and build responsive interfaces.",
+      "required_skills": [
+        "Figma",
+        "React",
+        "CSS",
+        "JavaScript"
+      ],
+      "location": "Bangalore",
+      "salary_min": 500000,
+      "salary_max": 1000000,
+      "is_remote": false,
+      "recruiter_id": null,
+      "is_active": true,
+      "created_at": "2026-03-03T11:06:29.483Z"
+    },
+    {
+      "id": 9,
+      "title": "data analyst",
+      "description": "A Data Analyst collects, processes, and analyzes data to help organizations make data-driven decisions. They transform raw data into meaningful insights using tools like SQL, Python, Excel, and Power BI/Tableau.",
+      "required_skills": [
+        "python",
+        "excel"
+      ],
+      "location": "mumbai",
+      "salary_min": 209,
+      "salary_max": 345,
+      "is_remote": false,
+      "recruiter_id": 4,
+      "is_active": true,
+      "created_at": "2026-03-09T16:24:40.307Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "job_id": "4",
+      "status": "pending",
+      "applied_at": "2026-03-04T16:40:12.635Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "job_id": "7",
+      "status": "pending",
+      "applied_at": "2026-03-04T16:40:18.015Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "job_id": "3",
+      "status": "pending",
+      "applied_at": "2026-03-04T16:40:27.176Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "target_role": "data analyst",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Explain the core principles of data analyst development and your experience with them.",
+          "difficulty": "easy",
+          "topic": "General",
+          "expectedKeyPoints": [
+            "experience",
+            "principles",
+            "tools"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Describe a challenging technical problem you solved and your approach.",
+          "difficulty": "medium",
+          "topic": "Problem Solving",
+          "expectedKeyPoints": [
+            "problem identification",
+            "solution",
+            "outcome"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "How do you ensure code quality and maintainability in your projects?",
+          "difficulty": "easy",
+          "topic": "Best Practices",
+          "expectedKeyPoints": [
+            "testing",
+            "documentation",
+            "code review"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Explain how you would optimize a slow-performing application.",
+          "difficulty": "medium",
+          "topic": "Performance",
+          "expectedKeyPoints": [
+            "profiling",
+            "caching",
+            "database",
+            "algorithms"
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "Describe the system design for a scalable real-time chat application.",
+          "difficulty": "hard",
+          "topic": "System Design",
+          "expectedKeyPoints": [
+            "WebSockets",
+            "message queue",
+            "database",
+            "scaling"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "q1",
+          "answerText": "python",
+          "evaluation": {
+            "score": 6,
+            "feedback": "Your answer showed some understanding of the topic. There is room to go deeper.",
+            "coveredPoints": [
+              "experience"
+            ],
+            "missedPoints": [
+              "principles",
+              "tools"
+            ],
+            "suggestion": "Try to include concrete examples from your real experience.",
+            "strongParts": "You demonstrated basic familiarity with the concept."
+          }
+        },
+        {
+          "questionId": "q2",
+          "answerText": "i have not solve any problem yet",
+          "evaluation": {
+            "score": 6,
+            "feedback": "Your answer showed some understanding of the topic. There is room to go deeper.",
+            "coveredPoints": [
+              "problem identification"
+            ],
+            "missedPoints": [
+              "solution",
+              "outcome"
+            ],
+            "suggestion": "Try to include concrete examples from your real experience.",
+            "strongParts": "You demonstrated basic familiarity with the concept."
+          }
+        },
+        {
+          "questionId": "q3",
+          "answerText": "no",
+          "evaluation": {
+            "score": 6,
+            "feedback": "Your answer showed some understanding of the topic. There is room to go deeper.",
+            "coveredPoints": [
+              "testing"
+            ],
+            "missedPoints": [
+              "documentation",
+              "code review"
+            ],
+            "suggestion": "Try to include concrete examples from your real experience.",
+            "strongParts": "You demonstrated basic familiarity with the concept."
+          }
+        },
+        {
+          "questionId": "q4",
+          "answerText": "i have no ideal",
+          "evaluation": {
+            "score": 6,
+            "feedback": "Your answer showed some understanding of the topic. There is room to go deeper.",
+            "coveredPoints": [
+              "profiling"
+            ],
+            "missedPoints": [
+              "caching",
+              "database",
+              "algorithms"
+            ],
+            "suggestion": "Try to include concrete examples from your real experience.",
+            "strongParts": "You demonstrated basic familiarity with the concept."
+          }
+        },
+        {
+          "questionId": "q5",
+          "answerText": "i have no idea",
+          "evaluation": {
+            "score": 6,
+            "feedback": "Your answer showed some understanding of the topic. There is room to go deeper.",
+            "coveredPoints": [
+              "WebSockets"
+            ],
+            "missedPoints": [
+              "message queue",
+              "database",
+              "scaling"
+            ],
+            "suggestion": "Try to include concrete examples from your real experience.",
+            "strongParts": "You demonstrated basic familiarity with the concept."
+          }
+        }
+      ],
+      "scores": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "status": "completed",
+      "started_at": "2026-03-03T11:09:17.747Z",
+      "average_score": 6,
+      "completed_at": "2026-03-03T11:11:00.871Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "target_role": "Python Developer",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Explain the core principles of Python Developer development and your experience.",
+          "difficulty": "easy",
+          "topic": "General",
+          "expectedKeyPoints": [
+            "relevant experience",
+            "core concepts",
+            "tools used"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Describe the most challenging technical problem you solved. What was your approach?",
+          "difficulty": "medium",
+          "topic": "Problem Solving",
+          "expectedKeyPoints": [
+            "problem identification",
+            "research",
+            "solution",
+            "outcome",
+            "lessons learned"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "How do you ensure code quality and maintainability in your projects?",
+          "difficulty": "easy",
+          "topic": "Best Practices",
+          "expectedKeyPoints": [
+            "testing",
+            "code review",
+            "documentation",
+            "clean code",
+            "version control"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "How would you design and optimize a slow-performing application?",
+          "difficulty": "medium",
+          "topic": "Performance",
+          "expectedKeyPoints": [
+            "profiling",
+            "identify bottleneck",
+            "caching",
+            "database optimization",
+            "monitoring"
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "Describe the system design for a scalable real-time notification system.",
+          "difficulty": "hard",
+          "topic": "System Design",
+          "expectedKeyPoints": [
+            "WebSockets or SSE",
+            "message queue",
+            "horizontal scaling",
+            "database",
+            "reliability"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "q1",
+          "answerText": "i don't know",
+          "evaluation": {
+            "score": 2,
+            "feedback": "Your answer was too brief to evaluate properly. Please provide a detailed response.",
+            "coveredPoints": [],
+            "missedPoints": [
+              "relevant experience",
+              "core concepts",
+              "tools used"
+            ],
+            "suggestion": "Aim for at least 3-4 sentences explaining your understanding with an example."
+          }
+        },
+        {
+          "questionId": "q2",
+          "answerText": "i have solve nothing",
+          "evaluation": {
+            "score": 2,
+            "feedback": "Your answer was too brief to evaluate properly. Please provide a detailed response.",
+            "coveredPoints": [],
+            "missedPoints": [
+              "problem identification",
+              "research",
+              "solution",
+              "outcome",
+              "lessons learned"
+            ],
+            "suggestion": "Aim for at least 3-4 sentences explaining your understanding with an example."
+          }
+        }
+      ],
+      "scores": [
+        2,
+        2
+      ],
+      "status": "in_progress",
+      "started_at": "2026-03-04T16:45:03.097Z",
+      "average_score": 2,
+      "completed_at": null
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "target_role": "Full Stack Developer",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Explain the core principles of Full Stack Developer development and your experience.",
+          "difficulty": "easy",
+          "topic": "General",
+          "expectedKeyPoints": [
+            "relevant experience",
+            "core concepts",
+            "tools used"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Describe the most challenging technical problem you solved. What was your approach?",
+          "difficulty": "medium",
+          "topic": "Problem Solving",
+          "expectedKeyPoints": [
+            "problem identification",
+            "research",
+            "solution",
+            "outcome",
+            "lessons learned"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "How do you ensure code quality and maintainability in your projects?",
+          "difficulty": "easy",
+          "topic": "Best Practices",
+          "expectedKeyPoints": [
+            "testing",
+            "code review",
+            "documentation",
+            "clean code",
+            "version control"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "How would you design and optimize a slow-performing application?",
+          "difficulty": "medium",
+          "topic": "Performance",
+          "expectedKeyPoints": [
+            "profiling",
+            "identify bottleneck",
+            "caching",
+            "database optimization",
+            "monitoring"
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "Describe the system design for a scalable real-time notification system.",
+          "difficulty": "hard",
+          "topic": "System Design",
+          "expectedKeyPoints": [
+            "WebSockets or SSE",
+            "message queue",
+            "horizontal scaling",
+            "database",
+            "reliability"
+          ]
+        }
+      ],
+      "answers": [
+        {
+          "questionId": "q1",
+          "answerText": "Both to say hello. What up? Hello, my name is Riya Gupta.",
+          "evaluation": {
+            "score": 2,
+            "feedback": "Your answer needs more depth. Review the key concepts for this topic.",
+            "coveredPoints": [],
+            "missedPoints": [
+              "relevant experience",
+              "core concepts",
+              "tools used"
+            ],
+            "suggestion": "Try to also cover: relevant experience and core concepts"
+          }
+        },
+        {
+          "questionId": "q2",
+          "answerText": "Answer. Describe the most challenging technical problem you solved. What was your approach? No approach. Approach was based on the strong research. Problem I also don't know.",
+          "evaluation": {
+            "score": 5,
+            "feedback": "Decent attempt, but some important points were missing.",
+            "coveredPoints": [
+              "problem identification",
+              "research"
+            ],
+            "missedPoints": [
+              "solution",
+              "outcome",
+              "lessons learned"
+            ],
+            "suggestion": "Try to also cover: solution and outcome"
+          }
+        }
+      ],
+      "scores": [
+        2,
+        5
+      ],
+      "status": "in_progress",
+      "started_at": "2026-03-09T16:07:47.359Z",
+      "average_score": 3.5,
+      "completed_at": null
+    }
+  ],
+  "_counters": {
+    "users": 4,
+    "certificates": 2,
+    "jobs": 9,
+    "applications": 3,
+    "interviews": 3
+  }
+}

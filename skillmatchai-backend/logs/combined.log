@@ -1,0 +1,97 @@
+2026-03-03 16:36:29 [info]: ✅ Database ready
+2026-03-03 16:36:30 [info]: 🚀 Server running on http://localhost:5000 [development]
+2026-03-03 16:36:30 [info]: 📋 Health check: http://localhost:5000/api/health
+2026-03-03 16:36:30 [info]: 👥 Debug users: http://localhost:5000/api/debug/users
+2026-03-03 16:36:48 [info]: Login attempt: email=shyam@gmail.com
+2026-03-03 16:36:48 [warn]: Login: no user for email=shyam@gmail.com. Total users=0
+2026-03-03 16:37:00 [info]: Login attempt: email=shyam@gmail.com
+2026-03-03 16:37:00 [warn]: Login: no user for email=shyam@gmail.com. Total users=0
+2026-03-03 16:37:11 [info]: Login attempt: email=shyam@gmail.com
+2026-03-03 16:37:11 [warn]: Login: no user for email=shyam@gmail.com. Total users=0
+2026-03-03 16:37:30 [info]: Login attempt: email=shyam@gmail.com
+2026-03-03 16:37:30 [warn]: Login: no user for email=shyam@gmail.com. Total users=0
+2026-03-03 16:38:39 [info]: Register: email=shyam@gmail.com, role=jobseeker
+2026-03-03 16:38:39 [info]: Hash created, length=60, starts=$2a$10$
+2026-03-03 16:38:39 [info]: ✅ User created: id=1, email=shyam@gmail.com
+2026-03-03 16:38:39 [error]: Email send error:
+2026-03-03 16:39:17 [info]: Starting interview for user 1, role: data analyst
+2026-03-03 16:39:17 [error]: Generate interview questions error:
+2026-03-03 16:39:25 [error]: Evaluate answer error:
+2026-03-03 16:39:56 [error]: Evaluate answer error:
+2026-03-03 16:40:21 [error]: Evaluate answer error:
+2026-03-03 16:40:41 [error]: Evaluate answer error:
+2026-03-03 16:41:00 [error]: Evaluate answer error:
+2026-03-03 16:43:07 [error]: Skill gap analysis error:
+2026-03-03 16:43:39 [error]: Skill gap analysis error:
+2026-03-03 16:44:32 [info]: Login attempt: email=shyam@gmail.com
+2026-03-03 16:44:32 [info]: User found: id=1, hash_len=60, hash_start=$2a$10$, is_active=1
+2026-03-03 16:44:32 [info]: Password match: true
+2026-03-03 16:44:32 [info]: ✅ Login success: id=1
+2026-03-03 16:44:33 [error]: Skill gap analysis error:
+2026-03-03 16:44:33 [error]: Skill gap analysis error:
+2026-03-03 16:47:17 [info]: Running OCR on image: cert-1-1772536637517-856058999.pdf
+2026-03-03 17:02:53 [info]: ✅ Database ready
+2026-03-03 17:02:54 [info]: 🚀 Server running on http://localhost:5000 [development]
+2026-03-03 17:02:54 [info]: 📋 Health check: http://localhost:5000/api/health
+2026-03-03 17:02:54 [info]: 👥 Debug users: http://localhost:5000/api/debug/users
+2026-03-03 17:05:20 [info]: Running OCR on image: cert-1772537719965-md16c58dn4r.pdf
+2026-03-04 20:24:43 [info]: ✅ Database ready
+2026-03-04 20:24:44 [info]: 🚀 Server running on http://localhost:5000 [development]
+2026-03-04 20:24:44 [info]: 📋 Health check: http://localhost:5000/api/health
+2026-03-04 20:24:44 [info]: 👥 Debug users: http://localhost:5000/api/debug/users
+2026-03-04 20:25:19 [info]: ✅ OpenAI client initialized
+2026-03-04 20:25:20 [warn]: OpenAI skill gap failed:
+2026-03-04 20:25:20 [warn]: OpenAI skill gap failed:
+2026-03-04 20:25:32 [info]: Running OCR on image: cert-1772636132186-xhzv19mrga.pdf
+2026-03-04 22:08:43 [info]: ✅ Database ready
+2026-03-04 22:08:44 [info]: 🚀 Server running on http://localhost:5000 [development]
+2026-03-04 22:08:44 [info]: 📋 Health check: http://localhost:5000/api/health
+2026-03-04 22:08:44 [info]: 👥 Debug users: http://localhost:5000/api/debug/users
+2026-03-04 22:15:03 [info]: Starting interview for user 1, role: Python Developer
+2026-03-04 22:17:11 [info]: Register: email=gupta@gmail.com, role=pwd_candidate
+2026-03-04 22:17:11 [info]: Hash created, length=60, starts=$2a$10$
+2026-03-04 22:17:11 [info]: ✅ User created: id=2, email=gupta@gmail.com
+2026-03-04 22:17:11 [info]: Email skipped (not configured): "Welcome to SkillMatchAI!" to gupta@gmail.com
+2026-03-04 22:21:13 [info]: Login attempt: email=shyam@gmail.com
+2026-03-04 22:21:13 [info]: User found: id=1, hash_len=60, hash_start=$2a$10$, is_active=1
+2026-03-04 22:21:13 [info]: Password match: true
+2026-03-04 22:21:13 [info]: ✅ Login success: id=1
+2026-03-04 22:21:50 [info]: Login attempt: email=gupta@gmail.com
+2026-03-04 22:21:50 [info]: User found: id=2, hash_len=60, hash_start=$2a$10$, is_active=1
+2026-03-04 22:21:51 [info]: Password match: true
+2026-03-04 22:21:51 [info]: ✅ Login success: id=2
+2026-03-04 22:22:41 [info]: Login attempt: email=shyam@gmail.com
+2026-03-04 22:22:41 [info]: User found: id=1, hash_len=60, hash_start=$2a$10$, is_active=1
+2026-03-04 22:22:41 [info]: Password match: true
+2026-03-04 22:22:41 [info]: ✅ Login success: id=1
+2026-03-09 21:18:55 [info]: ✅ Database ready
+2026-03-09 21:18:56 [info]: 🚀 Server running on http://localhost:5000 [development]
+2026-03-09 21:18:56 [info]: 📋 Health check: http://localhost:5000/api/health
+2026-03-09 21:18:56 [info]: 👥 Debug users: http://localhost:5000/api/debug/users
+2026-03-09 21:31:23 [info]: Login attempt: email=shyam@gmail.com
+2026-03-09 21:31:23 [info]: User found: id=1, hash_len=60, hash_start=$2a$10$, is_active=1
+2026-03-09 21:31:23 [info]: Password match: true
+2026-03-09 21:31:23 [info]: ✅ Login success: id=1
+2026-03-09 21:37:34 [info]: Register: email=riya@gmail.com, role=jobseeker
+2026-03-09 21:37:34 [info]: Hash created, length=60, starts=$2a$10$
+2026-03-09 21:37:34 [info]: ✅ User created: id=3, email=riya@gmail.com
+2026-03-09 21:37:34 [info]: Email skipped (not configured): "Welcome to SkillMatchAI!" to riya@gmail.com
+2026-03-09 21:37:47 [info]: Starting interview for user 3, role: Full Stack Developer
+2026-03-09 21:42:01 [info]: PDF OCR: extracted 18 chars
+2026-03-09 21:42:01 [info]: [fallback] cert validation: isValid=true, confidence=65
+2026-03-09 21:42:01 [info]: IPFS skipped — Pinata not configured
+2026-03-09 21:46:37 [info]: Login attempt: email=gupta@gmail.com
+2026-03-09 21:46:37 [info]: User found: id=2, hash_len=60, hash_start=$2a$10$, is_active=1
+2026-03-09 21:46:38 [info]: Password match: true
+2026-03-09 21:46:38 [info]: ✅ Login success: id=2
+2026-03-09 21:49:44 [info]: PDF OCR: extracted 18 chars
+2026-03-09 21:49:44 [info]: [fallback] cert validation: isValid=true, confidence=65
+2026-03-09 21:49:44 [info]: IPFS skipped — Pinata not configured
+2026-03-09 21:52:12 [info]: Register: email=neelu@gmail.com, role=recruiter
+2026-03-09 21:52:12 [info]: Hash created, length=60, starts=$2a$10$
+2026-03-09 21:52:12 [info]: ✅ User created: id=4, email=neelu@gmail.com
+2026-03-09 21:52:12 [info]: Email skipped (not configured): "Welcome to SkillMatchAI!" to neelu@gmail.com
+2026-03-15 10:44:51 [info]: ✅ Database ready
+2026-03-15 10:44:52 [info]: 🚀 Server running on http://localhost:5000 [development]
+2026-03-15 10:44:52 [info]: 📋 Health check: http://localhost:5000/api/health
+2026-03-15 10:44:52 [info]: 👥 Debug users: http://localhost:5000/api/debug/users

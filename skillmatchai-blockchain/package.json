@@ -1,0 +1,21 @@
+{
+  "name": "skillmatchai-blockchain",
+  "version": "1.0.0",
+  "description": "SkillMatchAI Smart Contracts — Polygon Mumbai",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy":  "npx hardhat run scripts/deploy.js --network mumbai",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network hardhat",
+    "test":    "npx hardhat test",
+    "clean":   "npx hardhat clean",
+    "verify":  "npx hardhat verify --network mumbai"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.20.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "ethers": "^6.11.1"
+  }
+}
